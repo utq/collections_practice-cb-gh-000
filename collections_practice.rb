@@ -52,7 +52,12 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.start_with?("a")
+  array.each do |element|
+    if element.start_with?("a")
+      true
+    end
+  end
+  false
 end
 
 def sum_array(array)
