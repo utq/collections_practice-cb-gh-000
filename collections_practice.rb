@@ -62,7 +62,7 @@ end
 def add_s(array)
   array.each_with_index do |text, index|
     if index != 1
-      array = array << "s"
+      array = text << "s"
     end
   end
 end
